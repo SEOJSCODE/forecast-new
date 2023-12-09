@@ -13,7 +13,8 @@ export const
     time = document.querySelector('.time'),
     daysBlock = document.querySelector('.days-block'),
     oneKelvin = Number(273,15),
-    defaultCity = 'Moscow'
+    defaultCity = 'Moscow',
+    currentCity = localStorage.getItem('currentCity')
 
 
 
