@@ -17,8 +17,7 @@ export function setCurrentCity (city) {
 }
 export function showFromLocalStorage () {
     renderListCities()
-    let storageArray = JSON.parse(localStorage.getItem('cities'))
-    for(const value of storageArray) {
+    for(const value of favouriteCities) {
         let li = document.createElement('li')
         let span = document.createElement('span')
         span.classList.add('delete-button')
